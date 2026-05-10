@@ -613,18 +613,7 @@ section { padding: 100px 0; }
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
 }
-.tool-card {
-  background: white;
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  padding: 28px 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  transition: all 0.3s ease;
-  cursor: default;
-  overflow: hidden;
-}
+
 .tool-card:hover {
   border-color: var(--accent);
   transform: translateY(-4px);
