@@ -14,7 +14,24 @@
   --border: rgba(26,20,16,0.1);
   --border-strong: rgba(26,20,16,0.2);
 }
+.btn-drive{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:14px 24px;
+  border-radius:999px;
+  text-decoration:none;
+  background:#C8472B;
+  color:#fff;
+  font-weight:600;
+  transition:0.3s ease;
+  border:1px solid transparent;
+}
 
+.btn-drive:hover{
+  transform:translateY(-3px);
+  background:#E07B5A;
+}
 /* ─── RESET ─── */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
